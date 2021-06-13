@@ -1,6 +1,23 @@
-.Wrap {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 50px;
-}
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-extra-large: 1200px;
 
+.Wrap {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: $breakpoint-small) {
+    max-width: 540px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    max-width: 720px;
+  }
+  @media (min-width: $breakpoint-large) {
+    max-width: 960px;
+  }
+  @media (min-width: $breakpoint-extra-large) {
+    max-width: 1140px;
+  }
+}

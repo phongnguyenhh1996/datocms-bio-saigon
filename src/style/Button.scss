@@ -1,0 +1,12 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 108, 0, 0.2);
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    border: none;
+    color: #fff;
+}

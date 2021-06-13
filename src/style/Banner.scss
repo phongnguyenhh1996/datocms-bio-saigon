@@ -1,0 +1,42 @@
+.banner {
+  min-height: 100vh;
+  background-image: url(../assets/images/banner-bg.jpg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 60px;
+  display: flex;
+  &__product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__product-left, &__product-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  &__product-right {
+    img {
+      width: 100%;
+    }
+  }
+  &__title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  &__description {
+    font-size: 14px;
+    color: #777;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  &__action-text {
+    margin-left: 10px;
+    color: #222;
+  }
+}
